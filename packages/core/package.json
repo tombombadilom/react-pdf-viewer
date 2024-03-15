@@ -46,5 +46,9 @@
         "css": "sass --no-source-map --style compressed src/styles/index.scss lib/styles/index.css",
         "test": "jest --config ../../jest.config.js",
         "release": "npm publish --access public"
+    },
+    "dependencies": {
+        "rollup": "^4.13.0",
+        "sass": "^1.72.0"
     }
 }
